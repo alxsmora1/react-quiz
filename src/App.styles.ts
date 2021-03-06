@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 `;
 
-export const Wrapper = styled.div `
+export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +39,8 @@ export const Wrapper = styled.div `
     }
 
     h1 {
-        font-family: Fascinate Inline, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Fascinate Inline, Haettenschweiler, "Arial Narrow Bold",
+            sans-serif;
         background-image: linear-gradient(180deg, #fff, #87f1ee);
         background-size: 100%;
         background-clip: text;
@@ -68,5 +69,4 @@ export const Wrapper = styled.div `
     .start {
         max-width: 200px;
     }
-
 `;
